@@ -66,8 +66,8 @@ with st.form("trade_form"):
     col1, col2 = st.columns(2)
     
     with col1:
-        pair = st.selectbox("Trading Pair", ["XAU/USD", "EUR/USD", "BTC/USD", "ETH/USD", "Custom"])
-        platform = st.selectbox("Platform", ["MetaTrader 4", "MetaTrader 5", "cTrader", "TradingView", "Other"])
+        pair = st.selectbox("Trading Pair", ["XAU/USD", "SOL/USD", "BTC/USD", "ETH/USD", "US100"])
+        platform = st.selectbox("Platform", ["HFM", "FBS", "BYBIT", "WEEX", "MEXC"])
     
     with col2:
         profit = st.number_input("Profit ($)", min_value=0.0, step=0.01)
