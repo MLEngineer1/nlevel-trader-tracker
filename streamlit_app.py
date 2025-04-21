@@ -19,7 +19,7 @@ if 'current_balance' not in st.session_state:
 MAX_LEVEL = 40
 LEVEL_GROWTH_RATE = 1.30  # 30% growth per level
 BASE_BALANCE = 20.00       # Starting amount
-BASE_LOT_SIZE = 0.03       # Starting lot size
+BASE_LOT_SIZE = 0.02       # Starting lot size
 MAX_LOSS_PCT = 0.30        # 30% max loss per level
 
 # Helper Functions
